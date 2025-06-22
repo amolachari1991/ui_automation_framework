@@ -1,82 +1,41 @@
-2025-06-22 20:22:19 [main] INFO com.ui.listners.TestListner::onStart::58 Test suite started 
-2025-06-22 20:22:19 [main] INFO com.ui.tests.LoginTest::setUp::36 Loading the HomePage 
-2025-06-22 20:22:19 [main] INFO com.ui.pages.HomePage::<init>::65 Launching browser : EDGE 
-2025-06-22 20:22:21 [main] INFO com.ui.pages.HomePage::goToWebsite::99 Navigating to website =>http://www.automationpractice.pl/index.php? 
-2025-06-22 20:22:26 [main] INFO com.ui.listners.TestListner::onTestStart::28 loginJSONTest 
-2025-06-22 20:22:26 [main] INFO com.ui.listners.TestListner::onTestStart::29 validate login functionality 
-2025-06-22 20:22:26 [main] INFO com.ui.listners.TestListner::onTestStart::30 [e2e, sanity] 
-2025-06-22 20:22:26 [main] INFO com.ui.pages.HomePage::clickOn::109 clicking on intended locator : By.xpath: //a[contains(text(),"Sign")] 
-2025-06-22 20:22:27 [main] INFO com.ui.pages.LoginPage::enterText::115 entering text[ yotaya5807@jeanssi.com ] into : By.xpath: //*[@id="email"] 
-2025-06-22 20:22:27 [main] INFO com.ui.pages.LoginPage::enterText::115 entering text[ Password ] into : By.xpath: //*[@id="passwd"] 
-2025-06-22 20:22:27 [main] INFO com.ui.pages.LoginPage::clickOn::109 clicking on intended locator : By.xpath: //span[normalize-space()='Sign in'] 
-2025-06-22 20:22:29 [main] INFO com.ui.pages.MyAccountPage::getText::125 get text from locator : By.xpath: //*[contains(text(),'Amol achari')] 
-2025-06-22 20:22:29 [main] INFO com.ui.listners.TestListner::onTestSuccess::35 loginJSONTest	PASSED 
-2025-06-22 20:22:29 [main] INFO com.ui.pages.HomePage::exitBrowser::130 exiting the browser 
-2025-06-22 20:22:30 [main] INFO com.ui.tests.LoginTest::setUp::36 Loading the HomePage 
-2025-06-22 20:22:30 [main] INFO com.ui.pages.HomePage::<init>::65 Launching browser : EDGE 
-2025-06-22 20:22:31 [main] INFO com.ui.pages.HomePage::goToWebsite::99 Navigating to website =>http://www.automationpractice.pl/index.php? 
-2025-06-22 20:22:37 [main] INFO com.ui.listners.TestListner::onTestStart::28 loginCSV_Test 
-2025-06-22 20:22:37 [main] INFO com.ui.listners.TestListner::onTestStart::29 validate login functionality 
-2025-06-22 20:22:37 [main] INFO com.ui.listners.TestListner::onTestStart::30 [e2e, sanity] 
-2025-06-22 20:22:37 [main] INFO com.ui.pages.HomePage::clickOn::109 clicking on intended locator : By.xpath: //a[contains(text(),"Sign")] 
-2025-06-22 20:22:38 [main] INFO com.ui.pages.LoginPage::enterText::115 entering text[ yotaya5807@jeanssi.com ] into : By.xpath: //*[@id="email"] 
-2025-06-22 20:22:38 [main] INFO com.ui.pages.LoginPage::enterText::115 entering text[ Password ] into : By.xpath: //*[@id="passwd"] 
-2025-06-22 20:22:38 [main] INFO com.ui.pages.LoginPage::clickOn::109 clicking on intended locator : By.xpath: //span[normalize-space()='Sign in'] 
-2025-06-22 20:22:39 [main] INFO com.ui.pages.MyAccountPage::getText::125 get text from locator : By.xpath: //*[contains(text(),'Amol achari')] 
-2025-06-22 20:22:41 [main] INFO com.ui.listners.TestListner::onTestSuccess::35 loginCSV_Test	PASSED 
-2025-06-22 20:22:41 [main] INFO com.ui.pages.HomePage::exitBrowser::130 exiting the browser 
-2025-06-22 20:22:43 [main] INFO com.ui.tests.LoginTest::setUp::36 Loading the HomePage 
-2025-06-22 20:22:43 [main] INFO com.ui.pages.HomePage::<init>::65 Launching browser : EDGE 
-2025-06-22 20:22:44 [main] INFO com.ui.pages.HomePage::goToWebsite::99 Navigating to website =>http://www.automationpractice.pl/index.php? 
-2025-06-22 20:22:59 [main] INFO com.ui.listners.TestListner::onTestStart::28 loginExcelTest 
-2025-06-22 20:22:59 [main] INFO com.ui.listners.TestListner::onTestStart::29 validate login functionality 
-2025-06-22 20:22:59 [main] INFO com.ui.listners.TestListner::onTestStart::30 [e2e, sanity] 
-2025-06-22 20:22:59 [main] INFO com.ui.pages.HomePage::clickOn::109 clicking on intended locator : By.xpath: //a[contains(text(),"Sign")] 
-2025-06-22 20:23:00 [main] INFO com.ui.pages.LoginPage::enterText::115 entering text[ yotaya5807@jeanssi.com ] into : By.xpath: //*[@id="email"] 
-2025-06-22 20:23:00 [main] INFO com.ui.pages.LoginPage::enterText::115 entering text[ Password ] into : By.xpath: //*[@id="passwd"] 
-2025-06-22 20:23:00 [main] INFO com.ui.pages.LoginPage::clickOn::109 clicking on intended locator : By.xpath: //span[normalize-space()='Sign in'] 
-2025-06-22 20:23:00 [main] INFO com.ui.pages.MyAccountPage::getText::125 get text from locator : By.xpath: //*[contains(text(),'Amol achari')] 
-2025-06-22 20:23:01 [main] INFO com.ui.listners.TestListner::onTestSkipped::53 loginExcelTest	SKIPPED 
-2025-06-22 20:23:01 [main] INFO com.ui.pages.HomePage::exitBrowser::130 exiting the browser 
-2025-06-22 20:23:02 [main] INFO com.ui.tests.LoginTest::setUp::36 Loading the HomePage 
-2025-06-22 20:23:02 [main] INFO com.ui.pages.HomePage::<init>::65 Launching browser : EDGE 
-2025-06-22 20:23:03 [main] INFO com.ui.pages.HomePage::goToWebsite::99 Navigating to website =>http://www.automationpractice.pl/index.php? 
-2025-06-22 20:23:09 [main] INFO com.ui.listners.TestListner::onTestStart::28 loginExcelTest 
-2025-06-22 20:23:09 [main] INFO com.ui.listners.TestListner::onTestStart::29 validate login functionality 
-2025-06-22 20:23:09 [main] INFO com.ui.listners.TestListner::onTestStart::30 [e2e, sanity] 
-2025-06-22 20:23:09 [main] INFO com.ui.pages.HomePage::clickOn::109 clicking on intended locator : By.xpath: //a[contains(text(),"Sign")] 
-2025-06-22 20:23:10 [main] INFO com.ui.pages.LoginPage::enterText::115 entering text[ yotaya5807@jeanssi.com ] into : By.xpath: //*[@id="email"] 
-2025-06-22 20:23:10 [main] INFO com.ui.pages.LoginPage::enterText::115 entering text[ Password ] into : By.xpath: //*[@id="passwd"] 
-2025-06-22 20:23:10 [main] INFO com.ui.pages.LoginPage::clickOn::109 clicking on intended locator : By.xpath: //span[normalize-space()='Sign in'] 
-2025-06-22 20:23:12 [main] INFO com.ui.pages.MyAccountPage::getText::125 get text from locator : By.xpath: //*[contains(text(),'Amol achari')] 
-2025-06-22 20:23:12 [main] INFO com.ui.listners.TestListner::onTestSkipped::53 loginExcelTest	SKIPPED 
-2025-06-22 20:23:12 [main] INFO com.ui.pages.HomePage::exitBrowser::130 exiting the browser 
-2025-06-22 20:23:13 [main] INFO com.ui.tests.LoginTest::setUp::36 Loading the HomePage 
-2025-06-22 20:23:13 [main] INFO com.ui.pages.HomePage::<init>::65 Launching browser : EDGE 
-2025-06-22 20:23:14 [main] INFO com.ui.pages.HomePage::goToWebsite::99 Navigating to website =>http://www.automationpractice.pl/index.php? 
-2025-06-22 20:23:19 [main] INFO com.ui.listners.TestListner::onTestStart::28 loginExcelTest 
-2025-06-22 20:23:19 [main] INFO com.ui.listners.TestListner::onTestStart::29 validate login functionality 
-2025-06-22 20:23:19 [main] INFO com.ui.listners.TestListner::onTestStart::30 [e2e, sanity] 
-2025-06-22 20:23:19 [main] INFO com.ui.pages.HomePage::clickOn::109 clicking on intended locator : By.xpath: //a[contains(text(),"Sign")] 
-2025-06-22 20:23:21 [main] INFO com.ui.pages.LoginPage::enterText::115 entering text[ yotaya5807@jeanssi.com ] into : By.xpath: //*[@id="email"] 
-2025-06-22 20:23:21 [main] INFO com.ui.pages.LoginPage::enterText::115 entering text[ Password ] into : By.xpath: //*[@id="passwd"] 
-2025-06-22 20:23:21 [main] INFO com.ui.pages.LoginPage::clickOn::109 clicking on intended locator : By.xpath: //span[normalize-space()='Sign in'] 
-2025-06-22 20:23:21 [main] INFO com.ui.pages.MyAccountPage::getText::125 get text from locator : By.xpath: //*[contains(text(),'Amol achari')] 
-2025-06-22 20:23:22 [main] INFO com.ui.listners.TestListner::onTestSkipped::53 loginExcelTest	SKIPPED 
-2025-06-22 20:23:22 [main] INFO com.ui.pages.HomePage::exitBrowser::130 exiting the browser 
-2025-06-22 20:23:24 [main] INFO com.ui.tests.LoginTest::setUp::36 Loading the HomePage 
-2025-06-22 20:23:24 [main] INFO com.ui.pages.HomePage::<init>::65 Launching browser : EDGE 
-2025-06-22 20:23:24 [main] INFO com.ui.pages.HomePage::goToWebsite::99 Navigating to website =>http://www.automationpractice.pl/index.php? 
-2025-06-22 20:23:31 [main] INFO com.ui.listners.TestListner::onTestStart::28 loginExcelTest 
-2025-06-22 20:23:31 [main] INFO com.ui.listners.TestListner::onTestStart::29 validate login functionality 
-2025-06-22 20:23:31 [main] INFO com.ui.listners.TestListner::onTestStart::30 [e2e, sanity] 
-2025-06-22 20:23:31 [main] INFO com.ui.pages.HomePage::clickOn::109 clicking on intended locator : By.xpath: //a[contains(text(),"Sign")] 
-2025-06-22 20:23:32 [main] INFO com.ui.pages.LoginPage::enterText::115 entering text[ yotaya5807@jeanssi.com ] into : By.xpath: //*[@id="email"] 
-2025-06-22 20:23:32 [main] INFO com.ui.pages.LoginPage::enterText::115 entering text[ Password ] into : By.xpath: //*[@id="passwd"] 
-2025-06-22 20:23:32 [main] INFO com.ui.pages.LoginPage::clickOn::109 clicking on intended locator : By.xpath: //span[normalize-space()='Sign in'] 
-2025-06-22 20:23:33 [main] INFO com.ui.pages.MyAccountPage::getText::125 get text from locator : By.xpath: //*[contains(text(),'Amol achari')] 
-2025-06-22 20:23:33 [main] INFO com.ui.listners.TestListner::onTestFailure::40 loginExcelTest	FAILED 
-2025-06-22 20:23:33 [main] INFO com.ui.listners.TestListner::onTestFailure::41 expected [Amolachari] but found [Amol achari] 
-2025-06-22 20:23:34 [main] INFO com.ui.listners.TestListner::onTestFailure::48 Capturing the screenShot for failed test : loginExcelTest 
-2025-06-22 20:23:34 [main] INFO com.ui.pages.HomePage::exitBrowser::130 exiting the browser 
-2025-06-22 20:23:35 [main] INFO com.ui.listners.TestListner::onFinish::63 Test suite finished 
+2025-06-22 21:37:01 [main] INFO com.ui.listners.TestListner::onStart::58 Test suite started 
+2025-06-22 21:37:01 [main] INFO com.ui.tests.LoginTest::setUp::36 Loading the HomePage 
+2025-06-22 21:37:01 [main] INFO com.ui.pages.HomePage::<init>::65 Launching browser : EDGE 
+2025-06-22 21:37:05 [main] INFO com.ui.pages.HomePage::goToWebsite::99 Navigating to website =>http://www.automationpractice.pl/index.php? 
+2025-06-22 21:37:10 [main] INFO com.ui.listners.TestListner::onTestStart::28 loginJSONTest 
+2025-06-22 21:37:10 [main] INFO com.ui.listners.TestListner::onTestStart::29 validate login functionality 
+2025-06-22 21:37:10 [main] INFO com.ui.listners.TestListner::onTestStart::30 [e2e, sanity] 
+2025-06-22 21:37:10 [main] INFO com.ui.pages.HomePage::clickOn::109 clicking on intended locator : By.xpath: //a[contains(text(),"Sign")] 
+2025-06-22 21:37:12 [main] INFO com.ui.pages.LoginPage::enterText::115 entering text[ yotaya5807@jeanssi.com ] into : By.xpath: //*[@id="email"] 
+2025-06-22 21:37:12 [main] INFO com.ui.pages.LoginPage::enterText::115 entering text[ Password ] into : By.xpath: //*[@id="passwd"] 
+2025-06-22 21:37:12 [main] INFO com.ui.pages.LoginPage::clickOn::109 clicking on intended locator : By.xpath: //span[normalize-space()='Sign in'] 
+2025-06-22 21:37:13 [main] INFO com.ui.pages.MyAccountPage::getText::125 get text from locator : By.xpath: //*[contains(text(),'Amol achari')] 
+2025-06-22 21:37:13 [main] INFO com.ui.listners.TestListner::onTestSuccess::35 loginJSONTest	PASSED 
+2025-06-22 21:37:13 [main] INFO com.ui.pages.HomePage::exitBrowser::130 exiting the browser 
+2025-06-22 21:37:14 [main] INFO com.ui.tests.LoginTest::setUp::36 Loading the HomePage 
+2025-06-22 21:37:14 [main] INFO com.ui.pages.HomePage::<init>::65 Launching browser : EDGE 
+2025-06-22 21:37:15 [main] INFO com.ui.pages.HomePage::goToWebsite::99 Navigating to website =>http://www.automationpractice.pl/index.php? 
+2025-06-22 21:37:21 [main] INFO com.ui.listners.TestListner::onTestStart::28 loginCSV_Test 
+2025-06-22 21:37:21 [main] INFO com.ui.listners.TestListner::onTestStart::29 validate login functionality 
+2025-06-22 21:37:21 [main] INFO com.ui.listners.TestListner::onTestStart::30 [e2e, sanity] 
+2025-06-22 21:37:21 [main] INFO com.ui.pages.HomePage::clickOn::109 clicking on intended locator : By.xpath: //a[contains(text(),"Sign")] 
+2025-06-22 21:37:22 [main] INFO com.ui.pages.LoginPage::enterText::115 entering text[ yotaya5807@jeanssi.com ] into : By.xpath: //*[@id="email"] 
+2025-06-22 21:37:22 [main] INFO com.ui.pages.LoginPage::enterText::115 entering text[ Password ] into : By.xpath: //*[@id="passwd"] 
+2025-06-22 21:37:23 [main] INFO com.ui.pages.LoginPage::clickOn::109 clicking on intended locator : By.xpath: //span[normalize-space()='Sign in'] 
+2025-06-22 21:37:24 [main] INFO com.ui.pages.MyAccountPage::getText::125 get text from locator : By.xpath: //*[contains(text(),'Amol achari')] 
+2025-06-22 21:37:26 [main] INFO com.ui.listners.TestListner::onTestSuccess::35 loginCSV_Test	PASSED 
+2025-06-22 21:37:26 [main] INFO com.ui.pages.HomePage::exitBrowser::130 exiting the browser 
+2025-06-22 21:37:29 [main] INFO com.ui.tests.LoginTest::setUp::36 Loading the HomePage 
+2025-06-22 21:37:29 [main] INFO com.ui.pages.HomePage::<init>::65 Launching browser : EDGE 
+2025-06-22 21:37:30 [main] INFO com.ui.pages.HomePage::goToWebsite::99 Navigating to website =>http://www.automationpractice.pl/index.php? 
+2025-06-22 21:37:36 [main] INFO com.ui.listners.TestListner::onTestStart::28 loginExcelTest 
+2025-06-22 21:37:36 [main] INFO com.ui.listners.TestListner::onTestStart::29 validate login functionality 
+2025-06-22 21:37:36 [main] INFO com.ui.listners.TestListner::onTestStart::30 [e2e, sanity] 
+2025-06-22 21:37:36 [main] INFO com.ui.pages.HomePage::clickOn::109 clicking on intended locator : By.xpath: //a[contains(text(),"Sign")] 
+2025-06-22 21:37:37 [main] INFO com.ui.pages.LoginPage::enterText::115 entering text[ yotaya5807@jeanssi.com ] into : By.xpath: //*[@id="email"] 
+2025-06-22 21:37:37 [main] INFO com.ui.pages.LoginPage::enterText::115 entering text[ Password ] into : By.xpath: //*[@id="passwd"] 
+2025-06-22 21:37:37 [main] INFO com.ui.pages.LoginPage::clickOn::109 clicking on intended locator : By.xpath: //span[normalize-space()='Sign in'] 
+2025-06-22 21:37:38 [main] INFO com.ui.pages.MyAccountPage::getText::125 get text from locator : By.xpath: //*[contains(text(),'Amol achari')] 
+2025-06-22 21:37:39 [main] INFO com.ui.listners.TestListner::onTestSuccess::35 loginExcelTest	PASSED 
+2025-06-22 21:37:39 [main] INFO com.ui.pages.HomePage::exitBrowser::130 exiting the browser 
+2025-06-22 21:37:40 [main] INFO com.ui.listners.TestListner::onFinish::63 Test suite finished 
