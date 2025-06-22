@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="111.7" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="73.821" tests="3" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="isHeadless" value="true"/>
+    <property name="isHeadless" value=""/>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Users\amola\AppData\Local\Programs\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\amola\AppData\Local\Temp\surefire11608338617239698754\surefirebooter-20250622142528697_3.jar C:\Users\amola\AppData\Local\Temp\surefire11608338617239698754 2025-06-22T14-25-28_513-jvmRun1 surefire-20250622142528697_1tmp surefire_0-20250622142528697_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\amola\AppData\Local\Temp\surefire4694812334109163828\surefirebooter-20250622180913304_3.jar C:\Users\amola\AppData\Local\Temp\surefire4694812334109163828 2025-06-22T18-09-13_133-jvmRun1 surefire-20250622180913304_1tmp surefire_0-20250622180913304_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Maven Projects\UI_AutomationFramework\target\test-classes;D:\Maven Projects\UI_AutomationFramework\target\classes;C:\Users\amola\.m2\repository\org\seleniumhq\selenium\selenium-java\4.33.0\selenium-java-4.33.0.jar;C:\Users\amola\.m2\repository\org\seleniumhq\selenium\selenium-api\4.33.0\selenium-api-4.33.0.jar;C:\Users\amola\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\amola\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.33.0\selenium-chrome-driver-4.33.0.jar;C:\Users\amola\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\amola\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.33.0\selenium-chromium-driver-4.33.0.jar;C:\Users\amola\.m2\repository\org\seleniumhq\selenium\selenium-json\4.33.0\selenium-json-4.33.0.jar;C:\Users\amola\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.33.0\selenium-manager-4.33.0.jar;C:\Users\amola\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v135\4.33.0\selenium-devtools-v135-4.33.0.jar;C:\Users\amola\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v136\4.33.0\selenium-devtools-v136-4.33.0.jar;C:\Users\amola\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.33.0\selenium-devtools-v137-4.33.0.jar;C:\Users\amola\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.33.0\selenium-edge-driver-4.33.0.jar;C:\Users\amola\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.33.0\selenium-firefox-driver-4.33.0.jar;C:\Users\amola\.m2\repository\org\seleniumhq\selenium\selenium-http\4.33.0\selenium-http-4.33.0.jar;C:\Users\amola\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.33.0\selenium-ie-driver-4.33.0.jar;C:\Users\amola\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.33.0\selenium-remote-driver-4.33.0.jar;C:\Users\amola\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\amola\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\amola\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\amola\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\amola\.m2\repository\io\opentelemetry\opentelemetry-api\1.50.0\opentelemetry-api-1.50.0.jar;C:\Users\amola\.m2\repository\io\opentelemetry\opentelemetry-context\1.50.0\opentelemetry-context-1.50.0.jar;C:\Users\amola\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.50.0\opentelemetry-exporter-logging-1.50.0.jar;C:\Users\amola\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.50.0\opentelemetry-sdk-common-1.50.0.jar;C:\Users\amola\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.50.0\opentelemetry-sdk-extension-autoconfigure-spi-1.50.0.jar;C:\Users\amola\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.50.0\opentelemetry-sdk-extension-autoconfigure-1.50.0.jar;C:\Users\amola\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.50.0\opentelemetry-sdk-trace-1.50.0.jar;C:\Users\amola\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.50.0\opentelemetry-sdk-1.50.0.jar;C:\Users\amola\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.50.0\opentelemetry-sdk-metrics-1.50.0.jar;C:\Users\amola\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.50.0\opentelemetry-sdk-logs-1.50.0.jar;C:\Users\amola\.m2\repository\net\bytebuddy\byte-buddy\1.17.5\byte-buddy-1.17.5.jar;C:\Users\amola\.m2\repository\org\seleniumhq\selenium\selenium-os\4.33.0\selenium-os-4.33.0.jar;C:\Users\amola\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\amola\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.33.0\selenium-safari-driver-4.33.0.jar;C:\Users\amola\.m2\repository\org\seleniumhq\selenium\selenium-support\4.33.0\selenium-support-4.33.0.jar;C:\Users\amola\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\amola\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\amola\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\amola\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\amola\.m2\repository\com\google\code\gson\gson\2.13.1\gson-2.13.1.jar;C:\Users\amola\.m2\repository\com\google\errorprone\error_prone_annotations\2.38.0\error_prone_annotations-2.38.0.jar;C:\Users\amola\.m2\repository\com\opencsv\opencsv\5.11.1\opencsv-5.11.1.jar;C:\Users\amola\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;C:\Users\amola\.m2\repository\org\apache\commons\commons-text\1.13.1\commons-text-1.13.1.jar;C:\Users\amola\.m2\repository\commons-beanutils\commons-beanutils\1.11.0\commons-beanutils-1.11.0.jar;C:\Users\amola\.m2\repository\commons-logging\commons-logging\1.3.5\commons-logging-1.3.5.jar;C:\Users\amola\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\amola\.m2\repository\org\apache\commons\commons-collections4\4.5.0\commons-collections4-4.5.0.jar;C:\Users\amola\.m2\repository\org\junit\vintage\junit-vintage-engine\5.11.4\junit-vintage-engine-5.11.4.jar;C:\Users\amola\.m2\repository\org\junit\platform\junit-platform-engine\1.11.4\junit-platform-engine-1.11.4.jar;C:\Users\amola\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\amola\.m2\repository\org\junit\platform\junit-platform-commons\1.11.4\junit-platform-commons-1.11.4.jar;C:\Users\amola\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\amola\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\amola\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\amola\.m2\repository\org\apache\poi\poi\5.4.1\poi-5.4.1.jar;C:\Users\amola\.m2\repository\commons-codec\commons-codec\1.18.0\commons-codec-1.18.0.jar;C:\Users\amola\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\amola\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar;C:\Users\amola\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\amola\.m2\repository\org\apache\poi\poi-ooxml\5.4.1\poi-ooxml-5.4.1.jar;C:\Users\amola\.m2\repository\org\apache\poi\poi-ooxml-lite\5.4.1\poi-ooxml-lite-5.4.1.jar;C:\Users\amola\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\amola\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\amola\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\amola\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.3\log4j-core-2.24.3.jar;C:\Users\amola\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\amola\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\amola\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\amola\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\amola\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\amola\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\amola\AppData\Local\Temp\surefire11608338617239698754\surefirebooter-20250622142528697_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\amola\AppData\Local\Temp\surefire4694812334109163828\surefirebooter-20250622180913304_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.6+7-LTS"/>
@@ -42,9 +42,10 @@
     <property name="otel.metrics.exporter" value="none"/>
     <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="isHeadLess" value="false"/>
     <property name="otel.traces.exporter" value="none"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="browser" value="edge"/>
+    <property name="browser" value="chrome"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
     <property name="java.vendor.version" value="Temurin-21.0.6+7"/>
     <property name="localRepository" value="C:\Users\amola\.m2\repository"/>
@@ -65,49 +66,49 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="loginJSONTest[User [emailAddress=yotaya5807@jeanssi.com, Password=Password]](1)" classname="com.ui.tests.LoginTest" time="6.149">
-    <system-out><![CDATA[2025-06-22 14:25:29 [main] INFO com.ui.listners.TestListner::onStart::58 Test suite started 
-2025-06-22 14:25:57 [main] INFO com.ui.pages.HomePage::goToWebsite::99 Navigating to website =>http://www.automationpractice.pl/index.php? 
-2025-06-22 14:26:00 [main] INFO com.ui.listners.TestListner::onTestStart::28 loginJSONTest 
-2025-06-22 14:26:00 [main] INFO com.ui.listners.TestListner::onTestStart::29 validate login functionality 
-2025-06-22 14:26:00 [main] INFO com.ui.listners.TestListner::onTestStart::30 [e2e, sanity] 
-2025-06-22 14:26:00 [main] INFO com.ui.pages.HomePage::clickOn::109 clicking on intended locator : By.xpath: //a[contains(text(),"Sign")] 
-2025-06-22 14:26:03 [main] INFO com.ui.pages.LoginPage::enterText::115 entering text[ yotaya5807@jeanssi.com ] into : By.xpath: //*[@id="email"] 
-2025-06-22 14:26:04 [main] INFO com.ui.pages.LoginPage::enterText::115 entering text[ Password ] into : By.xpath: //*[@id="passwd"] 
-2025-06-22 14:26:04 [main] INFO com.ui.pages.LoginPage::clickOn::109 clicking on intended locator : By.xpath: //span[normalize-space()='Sign in'] 
-2025-06-22 14:26:05 [main] INFO com.ui.pages.MyAccountPage::getText::125 get text from locator : By.xpath: //*[contains(text(),'Amol achari')] 
+  <testcase name="loginJSONTest[User [emailAddress=yotaya5807@jeanssi.com, Password=Password]](1)" classname="com.ui.tests.LoginTest" time="3.11">
+    <system-out><![CDATA[2025-06-22 18:09:14 [main] INFO com.ui.listners.TestListner::onStart::58 Test suite started 
+2025-06-22 18:09:26 [main] INFO com.ui.pages.HomePage::goToWebsite::99 Navigating to website =>http://www.automationpractice.pl/index.php? 
+2025-06-22 18:09:31 [main] INFO com.ui.listners.TestListner::onTestStart::28 loginJSONTest 
+2025-06-22 18:09:31 [main] INFO com.ui.listners.TestListner::onTestStart::29 validate login functionality 
+2025-06-22 18:09:31 [main] INFO com.ui.listners.TestListner::onTestStart::30 [e2e, sanity] 
+2025-06-22 18:09:31 [main] INFO com.ui.pages.HomePage::clickOn::109 clicking on intended locator : By.xpath: //a[contains(text(),"Sign")] 
+2025-06-22 18:09:32 [main] INFO com.ui.pages.LoginPage::enterText::115 entering text[ yotaya5807@jeanssi.com ] into : By.xpath: //*[@id="email"] 
+2025-06-22 18:09:33 [main] INFO com.ui.pages.LoginPage::enterText::115 entering text[ Password ] into : By.xpath: //*[@id="passwd"] 
+2025-06-22 18:09:33 [main] INFO com.ui.pages.LoginPage::clickOn::109 clicking on intended locator : By.xpath: //span[normalize-space()='Sign in'] 
+2025-06-22 18:09:34 [main] INFO com.ui.pages.MyAccountPage::getText::125 get text from locator : By.xpath: //*[contains(text(),'Amol achari')] 
 ]]></system-out>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-Jun 22, 2025 2:25:30 PM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+Jun 22, 2025 6:09:15 PM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
 INFO: Using OpenTelemetry for tracing
 ]]></system-err>
   </testcase>
-  <testcase name="loginCSV_Test[User [emailAddress=yotaya5807@jeanssi.com, Password=Password]](1)" classname="com.ui.tests.LoginTest" time="5.637">
-    <system-out><![CDATA[2025-06-22 14:26:06 [main] INFO com.ui.listners.TestListner::onTestSuccess::35 loginJSONTest	PASSED 
-2025-06-22 14:26:34 [main] INFO com.ui.pages.HomePage::goToWebsite::99 Navigating to website =>http://www.automationpractice.pl/index.php? 
-2025-06-22 14:26:38 [main] INFO com.ui.listners.TestListner::onTestStart::28 loginCSV_Test 
-2025-06-22 14:26:38 [main] INFO com.ui.listners.TestListner::onTestStart::29 validate login functionality 
-2025-06-22 14:26:38 [main] INFO com.ui.listners.TestListner::onTestStart::30 [e2e, sanity] 
-2025-06-22 14:26:38 [main] INFO com.ui.pages.HomePage::clickOn::109 clicking on intended locator : By.xpath: //a[contains(text(),"Sign")] 
-2025-06-22 14:26:40 [main] INFO com.ui.pages.LoginPage::enterText::115 entering text[ yotaya5807@jeanssi.com ] into : By.xpath: //*[@id="email"] 
-2025-06-22 14:26:40 [main] INFO com.ui.pages.LoginPage::enterText::115 entering text[ Password ] into : By.xpath: //*[@id="passwd"] 
-2025-06-22 14:26:41 [main] INFO com.ui.pages.LoginPage::clickOn::109 clicking on intended locator : By.xpath: //span[normalize-space()='Sign in'] 
-2025-06-22 14:26:42 [main] INFO com.ui.pages.MyAccountPage::getText::125 get text from locator : By.xpath: //*[contains(text(),'Amol achari')] 
+  <testcase name="loginCSV_Test[User [emailAddress=yotaya5807@jeanssi.com, Password=Password]](1)" classname="com.ui.tests.LoginTest" time="5.096">
+    <system-out><![CDATA[2025-06-22 18:09:34 [main] INFO com.ui.listners.TestListner::onTestSuccess::35 loginJSONTest	PASSED 
+2025-06-22 18:09:56 [main] INFO com.ui.pages.HomePage::goToWebsite::99 Navigating to website =>http://www.automationpractice.pl/index.php? 
+2025-06-22 18:10:00 [main] INFO com.ui.listners.TestListner::onTestStart::28 loginCSV_Test 
+2025-06-22 18:10:00 [main] INFO com.ui.listners.TestListner::onTestStart::29 validate login functionality 
+2025-06-22 18:10:00 [main] INFO com.ui.listners.TestListner::onTestStart::30 [e2e, sanity] 
+2025-06-22 18:10:00 [main] INFO com.ui.pages.HomePage::clickOn::109 clicking on intended locator : By.xpath: //a[contains(text(),"Sign")] 
+2025-06-22 18:10:01 [main] INFO com.ui.pages.LoginPage::enterText::115 entering text[ yotaya5807@jeanssi.com ] into : By.xpath: //*[@id="email"] 
+2025-06-22 18:10:02 [main] INFO com.ui.pages.LoginPage::enterText::115 entering text[ Password ] into : By.xpath: //*[@id="passwd"] 
+2025-06-22 18:10:02 [main] INFO com.ui.pages.LoginPage::clickOn::109 clicking on intended locator : By.xpath: //span[normalize-space()='Sign in'] 
+2025-06-22 18:10:03 [main] INFO com.ui.pages.MyAccountPage::getText::125 get text from locator : By.xpath: //*[contains(text(),'Amol achari')] 
 ]]></system-out>
   </testcase>
-  <testcase name="loginExcelTest[User [emailAddress=yotaya5807@jeanssi.com, Password=Password]](1)" classname="com.ui.tests.LoginTest" time="3.591">
-    <system-out><![CDATA[2025-06-22 14:26:44 [main] INFO com.ui.listners.TestListner::onTestSuccess::35 loginCSV_Test	PASSED 
-2025-06-22 14:27:11 [main] INFO com.ui.pages.HomePage::goToWebsite::99 Navigating to website =>http://www.automationpractice.pl/index.php? 
-2025-06-22 14:27:16 [main] INFO com.ui.listners.TestListner::onTestStart::28 loginExcelTest 
-2025-06-22 14:27:16 [main] INFO com.ui.listners.TestListner::onTestStart::29 validate login functionality 
-2025-06-22 14:27:16 [main] INFO com.ui.listners.TestListner::onTestStart::30 [e2e, sanity] 
-2025-06-22 14:27:16 [main] INFO com.ui.pages.HomePage::clickOn::109 clicking on intended locator : By.xpath: //a[contains(text(),"Sign")] 
-2025-06-22 14:27:17 [main] INFO com.ui.pages.LoginPage::enterText::115 entering text[ yotaya5807@jeanssi.com ] into : By.xpath: //*[@id="email"] 
-2025-06-22 14:27:18 [main] INFO com.ui.pages.LoginPage::enterText::115 entering text[ Password ] into : By.xpath: //*[@id="passwd"] 
-2025-06-22 14:27:18 [main] INFO com.ui.pages.LoginPage::clickOn::109 clicking on intended locator : By.xpath: //span[normalize-space()='Sign in'] 
-2025-06-22 14:27:19 [main] INFO com.ui.pages.MyAccountPage::getText::125 get text from locator : By.xpath: //*[contains(text(),'Amol achari')] 
+  <testcase name="loginExcelTest[User [emailAddress=yotaya5807@jeanssi.com, Password=Password]](1)" classname="com.ui.tests.LoginTest" time="4.314">
+    <system-out><![CDATA[2025-06-22 18:10:05 [main] INFO com.ui.listners.TestListner::onTestSuccess::35 loginCSV_Test	PASSED 
+2025-06-22 18:10:18 [main] INFO com.ui.pages.HomePage::goToWebsite::99 Navigating to website =>http://www.automationpractice.pl/index.php? 
+2025-06-22 18:10:22 [main] INFO com.ui.listners.TestListner::onTestStart::28 loginExcelTest 
+2025-06-22 18:10:22 [main] INFO com.ui.listners.TestListner::onTestStart::29 validate login functionality 
+2025-06-22 18:10:22 [main] INFO com.ui.listners.TestListner::onTestStart::30 [e2e, sanity] 
+2025-06-22 18:10:22 [main] INFO com.ui.pages.HomePage::clickOn::109 clicking on intended locator : By.xpath: //a[contains(text(),"Sign")] 
+2025-06-22 18:10:23 [main] INFO com.ui.pages.LoginPage::enterText::115 entering text[ yotaya5807@jeanssi.com ] into : By.xpath: //*[@id="email"] 
+2025-06-22 18:10:24 [main] INFO com.ui.pages.LoginPage::enterText::115 entering text[ Password ] into : By.xpath: //*[@id="passwd"] 
+2025-06-22 18:10:24 [main] INFO com.ui.pages.LoginPage::clickOn::109 clicking on intended locator : By.xpath: //span[normalize-space()='Sign in'] 
+2025-06-22 18:10:26 [main] INFO com.ui.pages.MyAccountPage::getText::125 get text from locator : By.xpath: //*[contains(text(),'Amol achari')] 
 ]]></system-out>
   </testcase>
 </testsuite>

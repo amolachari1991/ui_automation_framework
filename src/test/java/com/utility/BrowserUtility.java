@@ -139,7 +139,7 @@ public abstract class BrowserUtility {
 		SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss");
 		Date date = new Date();
 		String fileNameDate = formatter.format(date);
-		String path = System.getProperty("user.dir") + "/screenShoots/" + name + "_" + fileNameDate + ".png";
+		String path = ".//screenShoots//" + name + "_" + fileNameDate + ".png";
 		TakesScreenshot screenshot = (TakesScreenshot) driver.get();
 		File src = screenshot.getScreenshotAs(OutputType.FILE);
 		File destination = new File(path);
