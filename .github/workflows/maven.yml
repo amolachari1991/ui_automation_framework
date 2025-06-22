@@ -35,15 +35,15 @@ jobs:
       if: always()
       uses: actions/upload-artifact@v4.4.3
       with:
-        name: screenshots
-        path: screenshots/
+        name: screenShoots
+        path: screenShoots/
 
     - name: Upload HTML Report as Artifact
       if: always()
       uses: actions/upload-artifact@v4.4.3
       with:
         name: html-report
-        path: report.html
+        path: reports/report.html
 
     - name: Test execution status
       run: echo "Test execution completed"
