@@ -50,20 +50,21 @@ jobs:
 
     - name: Copy Report to gh-pages Folder
       if: always()
-
       run: |
-        mkdir -p public/extent-reports
-        cp -R reports/report.html  public/extent-reports/
-        cp -R screenShoots/ public/extent-reports/screenShoots/
-        ls -l
+        mkdir -p public/extent-reports/screenShoots
+        cp reports/report.html public/extent-reports/index.html
+        cp -R screenShoots/* public/extent-reports/screenShoots/
+        ls -l public/extent-reports
 
     - name: Deploy 🚀
       if: always()
       uses: JamesIves/github-pages-deploy-action@v4
       with:
-        folder: public/extent-reports/
+        branch: gh-pages                 # default publishing branch
+        folder: public/extent-reports   # folder to publish
         token: ${{ secrets.PAT001 }}
         clean: true
+
 
 
   
