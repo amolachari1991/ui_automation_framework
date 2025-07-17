@@ -24,7 +24,7 @@ public class LoginTest extends TestBase{
 	
 	public void loginJSONTest(User user) {
 		String username = homePage.goToLoginPage().doLogin(user.getEmailAddress(), user.getPassword()).getUserName();
-		assertEquals(username, "Amol achari");
+		assertEquals(username, "Amolachari");
 	}
 	
 	@Test(	priority = 2,
