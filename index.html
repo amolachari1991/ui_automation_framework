@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary"></span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Mar 30, 2026 07:33:53 PM</span></a>
+<a href="#"><span class="badge badge-primary">Mar 31, 2026 07:33:09 PM</span></a>
 </li>
 </ul>
 </div>
@@ -66,6 +66,7 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
 <a class="dropdown-item" status="skip" href="#"><span>Skip</span><span class="status warning"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
@@ -74,40 +75,62 @@
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="skip" test-id="1"
+        <li class="test-item"  status="fail" test-id="1"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">loginJSONTest</p>
             <p class="text-sm">
-              <span>7:34:20 PM</span> / <span>00:00:00:007</span>
-              <span class="badge skip-bg log float-right">Skip</span>
+              <span>7:33:16 PM</span> / <span>00:00:00:142</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-skip">loginJSONTest</h5>
-<span class='badge badge-success'>03.30.2026 7:34:20 PM</span>
-<span class='badge badge-danger'>03.30.2026 7:34:20 PM</span>
-<span class='badge badge-default'>00:00:00:007</span>
+<h5 class="test-status text-fail">loginJSONTest</h5>
+<span class='badge badge-success'>03.31.2026 7:33:16 PM</span>
+<span class='badge badge-danger'>03.31.2026 7:33:16 PM</span>
+<span class='badge badge-default'>00:00:00:142</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
 </div>
-</div><div class="detail-body mt-4">
+</div>    <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='.//screenShoots//loginJSONTest_2026-03-31_19-33-16.png' src=".//screenShoots//loginJSONTest_2026-03-31_19-33-16.png">
+  
+    
+
+    </div></div>
+<div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log skip-bg">Skip</span></td>
-        <td>7:34:20 PM</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>7:33:16 PM</td>
         <td>
-          loginJSONTest	SKIPPED
+          loginJSONTest	FAILED
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>7:33:16 PM</td>
+        <td>
+          Unable to locate element: //a[contains(text(),"Sign")]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.17.0-1008-azure', java.version: '11.0.30'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [b3076cd6-1f91-435f-9993-32238048a647, findElement {using=xpath, value=//a[contains(text(),"Sign")]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 148.0.2, moz:accessibilityChecks: false, moz:buildID: 20260309125808, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 6.17.0-1008-azure, moz:processID: 2461, moz:profile: /tmp/rust_mozprofilewFQYmZ, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86...}
+Session ID: b3076cd6-1f91-435f-9993-32238048a647
         </td>
       </tr>
   </tbody>
@@ -115,40 +138,62 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="skip" test-id="2"
+        <li class="test-item"  status="fail" test-id="2"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">loginCSV_Test</p>
             <p class="text-sm">
-              <span>7:34:20 PM</span> / <span>00:00:00:001</span>
-              <span class="badge skip-bg log float-right">Skip</span>
+              <span>7:33:19 PM</span> / <span>00:00:00:062</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-skip">loginCSV_Test</h5>
-<span class='badge badge-success'>03.30.2026 7:34:20 PM</span>
-<span class='badge badge-danger'>03.30.2026 7:34:20 PM</span>
-<span class='badge badge-default'>00:00:00:001</span>
+<h5 class="test-status text-fail">loginCSV_Test</h5>
+<span class='badge badge-success'>03.31.2026 7:33:19 PM</span>
+<span class='badge badge-danger'>03.31.2026 7:33:19 PM</span>
+<span class='badge badge-default'>00:00:00:062</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
 </div>
-</div><div class="detail-body mt-4">
+</div>    <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='.//screenShoots//loginCSV_Test_2026-03-31_19-33-19.png' src=".//screenShoots//loginCSV_Test_2026-03-31_19-33-19.png">
+  
+    
+
+    </div></div>
+<div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log skip-bg">Skip</span></td>
-        <td>7:34:20 PM</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>7:33:19 PM</td>
         <td>
-          loginCSV_Test	SKIPPED
+          loginCSV_Test	FAILED
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>7:33:19 PM</td>
+        <td>
+          Unable to locate element: //a[contains(text(),"Sign")]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.17.0-1008-azure', java.version: '11.0.30'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [c354fcbb-98fd-41ad-a243-37ddf1131ff6, findElement {using=xpath, value=//a[contains(text(),"Sign")]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 148.0.2, moz:accessibilityChecks: false, moz:buildID: 20260309125808, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 6.17.0-1008-azure, moz:processID: 2830, moz:profile: /tmp/rust_mozprofilekVIt4g, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86...}
+Session ID: c354fcbb-98fd-41ad-a243-37ddf1131ff6
         </td>
       </tr>
   </tbody>
@@ -163,7 +208,7 @@
           <div class="test-detail">
             <p class="name">loginExcelTest</p>
             <p class="text-sm">
-              <span>7:34:21 PM</span> / <span>00:00:00:001</span>
+              <span>7:33:23 PM</span> / <span>00:00:00:041</span>
               <span class="badge skip-bg log float-right">Skip</span>
             </p>
           </div>
@@ -172,9 +217,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-skip">loginExcelTest</h5>
-<span class='badge badge-success'>03.30.2026 7:34:21 PM</span>
-<span class='badge badge-danger'>03.30.2026 7:34:21 PM</span>
-<span class='badge badge-default'>00:00:00:001</span>
+<span class='badge badge-success'>03.31.2026 7:33:23 PM</span>
+<span class='badge badge-danger'>03.31.2026 7:33:23 PM</span>
+<span class='badge badge-default'>00:00:00:041</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -187,9 +232,154 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log skip-bg">Skip</span></td>
-        <td>7:34:21 PM</td>
+        <td>7:33:23 PM</td>
         <td>
           loginExcelTest	SKIPPED
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">loginExcelTest</p>
+            <p class="text-sm">
+              <span>7:33:27 PM</span> / <span>00:00:00:030</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">loginExcelTest</h5>
+<span class='badge badge-success'>03.31.2026 7:33:27 PM</span>
+<span class='badge badge-danger'>03.31.2026 7:33:27 PM</span>
+<span class='badge badge-default'>00:00:00:030</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>7:33:27 PM</td>
+        <td>
+          loginExcelTest	SKIPPED
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">loginExcelTest</p>
+            <p class="text-sm">
+              <span>7:33:30 PM</span> / <span>00:00:00:025</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">loginExcelTest</h5>
+<span class='badge badge-success'>03.31.2026 7:33:30 PM</span>
+<span class='badge badge-danger'>03.31.2026 7:33:30 PM</span>
+<span class='badge badge-default'>00:00:00:025</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>7:33:30 PM</td>
+        <td>
+          loginExcelTest	SKIPPED
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="6"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">loginExcelTest</p>
+            <p class="text-sm">
+              <span>7:33:33 PM</span> / <span>00:00:00:073</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">loginExcelTest</h5>
+<span class='badge badge-success'>03.31.2026 7:33:33 PM</span>
+<span class='badge badge-danger'>03.31.2026 7:33:33 PM</span>
+<span class='badge badge-default'>00:00:00:073</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='.//screenShoots//loginExcelTest_2026-03-31_19-33-33.png' src=".//screenShoots//loginExcelTest_2026-03-31_19-33-33.png">
+  
+    
+
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>7:33:33 PM</td>
+        <td>
+          loginExcelTest	FAILED
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>7:33:33 PM</td>
+        <td>
+          Unable to locate element: //a[contains(text(),"Sign")]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.17.0-1008-azure', java.version: '11.0.30'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [752ffb3e-cd75-4460-a224-bfedcdf32ecb, findElement {using=xpath, value=//a[contains(text(),"Sign")]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 148.0.2, moz:accessibilityChecks: false, moz:buildID: 20260309125808, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 6.17.0-1008-azure, moz:processID: 4102, moz:profile: /tmp/rust_mozprofileQMIVpM, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86...}
+Session ID: 752ffb3e-cd75-4460-a224-bfedcdf32ecb
         </td>
       </tr>
   </tbody>
@@ -211,13 +401,13 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Mar 30, 2026 07:33:53 PM</h3>
+<h3>Mar 31, 2026 07:33:09 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Mar 30, 2026 07:34:21 PM</h3>
+<h3>Mar 31, 2026 07:33:34 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -229,7 +419,7 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Tests Failed</p>
-<h3>0</h3>
+<h3>3</h3>
 </div></div>
 </div>
 </div>
@@ -250,7 +440,7 @@
 </small>
 </div>
 <div>
-<small data-tooltip='0%'><b>0</b> tests failed,
+<small data-tooltip='50%'><b>3</b> tests failed,
 <b>3</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -270,7 +460,7 @@
 <div class="card-footer">
 <div><small data-tooltip='0%'><b>0</b> events passed</small></div>
 <div>
-<small data-tooltip='0%'><b>0</b> events failed,
+<small data-tooltip='66%'><b>6</b> events failed,
 <b data-tooltip='%'>3</b> others
 </small>
 </div>
@@ -287,7 +477,7 @@
 </div></div>
 <script>
 var timeline = {
-"loginJSONTest":0.007,"loginCSV_Test":0.001,"loginExcelTest":0.001
+"loginJSONTest":0.142,"loginCSV_Test":0.062,"loginExcelTest":0.041,"loginExcelTest":0.03,"loginExcelTest":0.025,"loginExcelTest":0.073
 };
 </script>
 <div class="row">
@@ -297,7 +487,7 @@ var timeline = {
 var statusGroup = {
 parentCount: 5,
 passParent: 0,
-failParent: 0,
+failParent: 3,
 warningParent: 0,
 skipParent: 3,
 childCount: 5,
@@ -314,7 +504,7 @@ skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
 passEvents: 0,
-failEvents: 0,
+failEvents: 6,
 warningEvents: 0,
 skipEvents: 3,
 infoEvents: 0
